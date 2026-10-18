@@ -1,92 +1,72 @@
-# Dev Diary
+# DSA in C++
 
-A public record of everything I am learning as a first-year B.Tech CSE student: notes, practice code and progress, organised by skill.
+This folder holds everything I do while learning Data Structures and Algorithms in C++: chapter-wise notes and my own solutions to practice problems.
 
-**Started:** October 2026
-**By:** Aniket
-
-> Real projects live in their own repositories. This repo is for learning: notes and practice only.
-
----
-
-## What is in this repo
-
-| Folder | What it holds | Status |
-| --- | --- | --- |
-| [dsa](dsa/) | Data Structures and Algorithms in C++: chapter notes and practice problems | In progress |
-| [web-dev](web-dev/) | Full-stack web development (HTML, CSS, JavaScript, React, Node, Express, MongoDB) | Starting after DSA |
+**Started:** 15 Oct 2026
+**Language:** C++
+**Goal:** finish the full course playlist, then build speed with LeetCode and Codeforces contests.
 
 ---
 
-## Repo structure
+## What is in this folder
+
+- **Chapter folders**: one folder for every chapter of the course, numbered in the order I learn them.
+- **notes.md** (inside each chapter): the theory, syntax, small examples, mistakes and patterns for that chapter.
+- **practice-problems/** (inside each chapter): my own solutions to problems on that chapter, one `.cpp` file per problem.
+
+---
+
+## Folder structure
 
 ```
-dev-journal/
+dsa/
   README.md
-  dsa/
-    README.md
-    chapter-01-introduction-to-programming/
-      notes.md
-    chapter-02-basics-of-cpp/
-      notes.md
-    chapter-03-conditional-statements-&-loops/
-      notes.md
-      practice-problems/
-    ...
+  chapter-01-introduction-to-programming/
+    notes.md
+  chapter-02-basics-of-cpp/
+    notes.md
+  chapter-03-conditionals-and-loops/
+    notes.md
+    practice-problems/
 ```
 
-Every skill folder follows the same pattern:
-- one folder per chapter, numbered in learning order
-- `notes.md` with the theory, syntax, mistakes and patterns
-- `practice-problems/` with my own solutions, one file per problem
-- a `README.md` at the top of the skill folder listing what is inside and my progress
-
 ---
 
-## Goals
+## Chapters
 
-- Finish the full DSA course and be able to solve problems on every topic without help
-- Reach a solid rating on LeetCode and Codeforces through regular contests
-- Complete the full-stack course and build and deploy real projects
-- Keep a daily learning habit that shows up in the commit history
+| Chapter | Notes | Practice problems | Solved |
+| --- | --- | --- | --- |
+| 01 Introduction to programming (algorithm, flowchart, pseudocode, dry run) | [notes](chapter-01-introduction-to-programming/notes.md) | NA | 0 |
+| 02 Basics of C++ | [notes](chapter-02-basics-of-cpp/notes.md) | NA | 0 |
+| 03 Conditional statements and loops | [notes](chapter-03-conditionals-and-loops/notes.md) | [folder](chapter-03-conditionals-and-loops/practice-problems) | 0 |
 
----
 
-## Tools
 
-- **Languages:** C++ (DSA)
-- **Notes:** written in Notion, then copied here as markdown
-- **Practice:** LeetCode, GeeksforGeeks, Codeforces
-- **Editor:** VS Code
+## What each chapter folder contains
 
----
+### notes.md
+- Short idea of the topic in my own words
+- Syntax and small example code
+- Common mistakes and edge cases
+- Pattern: when to use it
+### practice-problems/
+- One `.cpp` file per problem
+- Named like `leetcode-0001-two-sum.cpp`, `gfg-reverse-array.cpp` or `practice-factorial.cpp`
+- Lowercase, hyphens, no spaces
 
-## How I study
 
-1. Watch the lecture and try the problems before the solution.
-2. Write the code myself without copying.
-3. Solve 2 to 3 practice problems and save them here.
-4. Write short notes after solving.
-5. Revise after 1 day, 1 week and 3 weeks.
 
----
+## How I work through a chapter
 
-## Progress log
+1. Watch the lecture and try the problems before seeing the solution.
+2. Write the code myself without copying the instructor's.
+3. Solve 2 to 3 practice problems and save them in `practice-problems/`.
+4. Write the notes in `notes.md` after solving.
+5. Commit everything.
 
-| Month | What I covered |
-| --- | --- |
-| Oct 2026 | DSA: introduction to programming, C++ basics, conditionals and loops |
+## Rules I follow
 
----
-
-## Projects
-
-Projects are kept in separate repositories. Links will be added here as they are built.
-
-| Project | Stack | Link |
-| --- | --- | --- |
-| (coming soon) | | |
-
----
-
-*Last updated: 18/10/2026*
+- Solve it myself first. Hints come after 30 to 40 minutes, solutions come last, and I redo the problem the next day.
+- Write time and space complexity in every solution.
+- Commit small and often, even if it is only one problem.
+- Consistency beats intensity. One focused hour every day is better than one long session once a week.
