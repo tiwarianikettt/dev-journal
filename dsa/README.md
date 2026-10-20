@@ -36,9 +36,9 @@ dsa/
 
 | Chapter | Notes | Practice problems | Solved |
 | --- | --- | --- | --- |
-| 01 Introduction to programming (algorithm, flowchart, pseudocode, dry run) | [notes](chapter-01-introduction-to-programming/notes.md) | NA | 0 |
-| 02 Basics of C++ | [notes](chapter-02-basics-of-cpp/notes.md) | NA | 0 |
-| 03 Conditional statements and loops | [notes](chapter-03-conditionals-and-loops/notes.md) | [folder](chapter-03-conditionals-and-loops/practice-problems) | 0 |
+| 01 Introduction to programming (algorithm, flowchart, pseudocode, dry run) | [notes](chapter-01-introduction-to-programming/notes.md) | NA | NA |
+| 02 Basics of C++ | [notes](chapter-02-basics-of-cpp/notes.md) | NA | NA |
+| 03 Conditional statements and loops | [notes](chapter-03-conditionals-and-loops/notes.md) | [folder](chapter-03-conditionals-and-loops/practice-problems) | 18 |
 
 
 

@@ -14,7 +14,6 @@ A public record of everything I am learning as a first-year B.Tech CSE student: 
 | Folder | What it holds | Status |
 | --- | --- | --- |
 | [dsa](dsa/) | Data Structures and Algorithms in C++: chapter notes and practice problems | In progress |
-| [web-dev](web-dev/) | Full-stack web development (HTML, CSS, JavaScript, React, Node, Express, MongoDB) | Starting after DSA |
 
 ---
 
@@ -89,4 +88,4 @@ Projects are kept in separate repositories. Links will be added here as they are
 
 ---
 
-*Last updated: 18/10/2026*
+*Last updated: 20/10/2026*
