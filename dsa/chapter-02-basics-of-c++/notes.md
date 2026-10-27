@@ -100,7 +100,7 @@ int main() {
 
 2. using namespace std- This allows you to skip typing std:: before cout and endl.
 
-3. int main() { __ }- This defines the main function, which is the absolute entry point of every C++ program. Execution begins here. The int means this function must return an integer value when it finishes. */
+3. int main() { __ }- This defines the main function, which is the absolute entry point of every C++ program. Execution begins here. The int means this function must return an integer value when it finishes.
 ```
 
 ### Initialization of any variable
@@ -154,6 +154,40 @@ int house_no;
 // Example:
 
 int age, marks, house_no;
+```
+
+### Scopes in C++:
+
+Scope is the region where we can access the particular declared variables and some variables are not accessible outside their scope.
+
+#### Local Scope:
+
+Any variable declared or initialized with in the curly brackets of any loop of conditional statements are local score variables.
+
+these type of variable are not accessible outside the particular loop or condition.
+
+#### Global Scoped:
+
+Any variable which is declared globally in the program in the main function then that variable will be accessible anywhere we want.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main(){  
+    int n; // This is a Globally Scoped variable and we can access it anywhere we want to inside our program.
+    cout << "Enter the number: ";
+    cin >> n;
+
+    if(n > 18) {
+        int age = n; // Here this age variable is local scoped and it willnot be   accessible outside this if condition.
+        cout << age;
+    }
+
+    cout << age; // This will show an error as we are using it outside the scope.
+
+    return 0;
+}
 ```
 
 ### Printing in C++
@@ -253,3 +287,7 @@ int main() {
 	return 0;
 }
 ```
+
+### Drawbacks of cin keyword:
+
+It does not count take spaces or enter as the member of the variable. I want to enter the spaces we can replace cin with cin.get().

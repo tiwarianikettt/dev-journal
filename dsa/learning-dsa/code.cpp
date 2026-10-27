@@ -1,35 +1,17 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main(){  
     int n;
-    cout << "Enter the number of rows: ";
+    cout << "Enter the number: ";
     cin >> n;
 
-    int nd = (n + 1) / 2;
-
-    for (int i = 0; i <= nd; i++)
-    {
-        for(int j = 0; j < nd - i; j++) {
-            cout << " ";
-        }
-
-        for(int k = 0; k < 2 * i - 1; k++) {
-            cout << "*";
-        }
-        cout << endl;
+    if(n > 18) {
+        int age = n;
+        cout << age;
     }
 
-    for(int i = nd + 1; i <= n; i++) {
-        for(int j = 0; j < i - nd; j++) {
-            cout << " ";
-        }        
+    // cout << age;
 
-        for(int k = 0; k < 2 * (n - i) + 1; k++) {
-            cout << "*";
-        }
-        cout << endl;
-    }
     return 0;
 }
