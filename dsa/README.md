@@ -28,6 +28,9 @@ dsa/
   chapter-03-conditionals-and-loops/
     notes.md
     practice-problems/
+  chapter-04-arrays-in-c++/
+    notes.md
+    practice-problems/
 ```
 
 ---
@@ -38,7 +41,8 @@ dsa/
 | --- | --- | --- | --- |
 | 01 Introduction to programming (algorithm, flowchart, pseudocode, dry run) | [notes](chapter-01-introduction-to-programming/notes.md) | NA | NA |
 | 02 Basics of C++ | [notes](chapter-02-basics-of-cpp/notes.md) | NA | NA |
-| 03 Conditional statements and loops | [notes](chapter-03-conditionals-and-loops/notes.md) | [folder](chapter-03-conditionals-and-loops/practice-problems) | 33 |
+| 03 Conditional statements and loops | [notes](chapter-03-conditionals-and-loops/notes.md) | [folder](chapter-03-conditionals-and-loops/practice-problems) | 42 |
+| 04 Arrays in C++ | [notes](chapter-04-arrays-in-c++/notes.md) | [folder](chapter-04-arrays-in-c++/practice-problems) | 9 |
 
 
 
