@@ -75,4 +75,4 @@ dsa/
 - Commit small and often, even if it is only one problem.
 - Consistency beats intensity. One focused hour every day is better than one long session once a week.
 
-**By:** Aniket
+**By:** Aniket Tiwari
