@@ -100,7 +100,7 @@ int main() {
 
 2. using namespace std- This allows you to skip typing std:: before cout and endl.
 
-3. int main() { __ }- This defines the main function, which is the absolute entry point of every C++ program. Execution begins here. The int means this function must return an integer value when it finishes.
+3. int main() { __ }- This defines the main function, which is the absolute entry point of every C++ program. Execution begins here. The int means this function must return an integer value when it finishes. */
 ```
 
 ### Initialization of any variable
