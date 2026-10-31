@@ -69,3 +69,62 @@ int main(){
 ```
 
 ### Selection sort:
+
+Here in this sorting method we select each element one by one and then we compare it with the adjacent element.
+
+after comparison we swap the elements if the first element is smaller than the adjacent element, which results as- the largest number of the array will get sorted and move to the last place of the array.
+
+As we go  through the comparison and swapping process we can conclude that till the time we swap, there will be a time when only one element will left and it will be the smallest element of the array, which we don’t need to sort as it is already sorted.
+
+Therefore, this selection sort method also runs n - 1 times, where n is the number of elements in the array.
+
+Algorithm:
+
+1. Initiate a loop from 0th index of array to n - 1.
+2. Add a nested loop from 0 to n - 2 (because as we move forward the last elements will already get sorted)
+3. Here we will compare the adjacent elements of the array 
+4. If the first element is bigger than the adjacent element then we will swap both the elements.
+5. After swapping we will repeat the process n - 1 times 
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main(){
+   int n;
+    cout << "Enter the number of elements of the array: ";
+    cin >> n;
+
+    int arr[n];
+
+    cout << "Enter the elements of the array(in any order): ";
+    for(int i = 0; i < n; i++){
+        cin >> arr[i];
+    }
+    cout << endl;
+
+    cout << "Original array: ";
+    for(int i = 0; i < n; i++){
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+
+    //Selection sort
+    for(int i = 0; i < n - 2; i++){
+        for(int j = i; j <= n - 1; j++){
+            if(arr[j] < arr[i]){
+                swap(arr[j], arr[i]);
+            }
+        }
+    }
+
+    cout << "Sorted array: ";
+    for(int i = 0; i < n; i++){
+        cout << arr[i] << " ";
+    }
+
+   return 0;
+}
+```
+
+### Insertion Sort:
