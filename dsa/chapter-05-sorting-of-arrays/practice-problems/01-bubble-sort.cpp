@@ -35,8 +35,6 @@ int main(){
         if(isSwap == 0){
             break;
         }
-
-        cout << "run\n";
     }
 
     cout << "Sorted array: ";
