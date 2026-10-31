@@ -31,6 +31,7 @@ dsa/
   chapter-04-arrays-in-cpp/
     notes.md
     practice-problems/
+  ...
 ```
 
 ---
@@ -39,10 +40,11 @@ dsa/
 
 | Chapter | Notes | Practice problems | Solved |
 | --- | --- | --- | --- |
-| 01 Introduction to programming (algorithm, flowchart, pseudocode, dry run) | [notes](chapter-01-introduction-to-programming/notes.md) | NA | NA |
+| 01 Introduction to Programming (algorithm, flowchart, pseudocode, dry run) | [notes](chapter-01-introduction-to-programming/notes.md) | NA | NA |
 | 02 Basics of C++ | [notes](chapter-02-basics-of-cpp/notes.md) | NA | NA |
-| 03 Conditional statements and loops | [notes](chapter-03-conditionals-and-loops/notes.md) | [folder](chapter-03-conditionals-and-loops/practice-problems) | 42 |
-| 04 Arrays in CPP | [notes](chapter-04-arrays-in-cpp/notes.md) | [folder](chapter-04-arrays-in-cpp/practice-problems) | 9 |
+| 03 Conditional statements and Loops | [notes](chapter-03-conditionals-and-loops/notes.md) | [folder](chapter-03-conditionals-and-loops/practice-problems) | 49 |
+| 04 Arrays in CPP | [notes](chapter-04-arrays-in-cpp/notes.md) | [folder](chapter-04-arrays-in-cpp/practice-problems) | 13 |
+| 05 Sorting of Arrays | [notes](chapter-05-sorting-of-arrays/notes.md) | [folder](chapter-05-sorting-of-arrays/practice-problems) | 2 |
 
 
 
