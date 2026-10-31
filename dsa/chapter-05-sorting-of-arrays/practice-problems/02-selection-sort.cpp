@@ -22,6 +22,18 @@ int main(){
     }
     cout << endl;
 
-    
+    for(int i = 0; i < n - 2; i++){
+        for(int j = i; j <= n - 1; j++){
+            if(arr[j] < arr[i]){
+                swap(arr[j], arr[i]);
+            }
+        }
+    }
+
+    cout << "Sorted array: ";
+    for(int i = 0; i < n; i++){
+        cout << arr[i] << " ";
+    }
+
    return 0;
 }
