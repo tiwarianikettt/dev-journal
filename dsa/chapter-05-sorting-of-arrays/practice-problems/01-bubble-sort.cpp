@@ -23,12 +23,20 @@ int main(){
     cout << endl;
 
     // Bubble sorting
+    int isSwap = 0;
     for(int i = 0; i < n - 1; i++){
         for(int j = 0; j < n - i - 1; j++){
             if(arr[j] > arr[j + 1]){
                 swap(arr[j], arr[j + 1]);
+                isSwap = 1;
             }
         }
+
+        if(isSwap == 0){
+            break;
+        }
+
+        cout << "run\n";
     }
 
     cout << "Sorted array: ";
