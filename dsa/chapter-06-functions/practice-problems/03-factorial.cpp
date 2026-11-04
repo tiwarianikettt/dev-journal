@@ -15,6 +15,7 @@ int factorial(int n){
         }
         cout << "Factorial of " << n << " is " << fact << endl;
     }
+    return 0;
 }
 
 int main(){
