@@ -43,7 +43,7 @@ dsa/
 | 01 Introduction to Programming (algorithm, flowchart, pseudocode, dry run) | [notes](chapter-01-introduction-to-programming/notes.md) | NA | NA |
 | 02 Basics of C++ | [notes](chapter-02-basics-of-cpp/notes.md) | NA | NA |
 | 03 Conditional statements and Loops | [notes](chapter-03-conditionals-and-loops/notes.md) | [folder](chapter-03-conditionals-and-loops/practice-problems) | 50 |
-| 04 Arrays in CPP | [notes](chapter-04-arrays-in-cpp/notes.md) | [folder](chapter-04-arrays-in-cpp/practice-problems) | 20 |
+| 04 Arrays in CPP | [notes](chapter-04-arrays-in-cpp/notes.md) | [folder](chapter-04-arrays-in-cpp/practice-problems) | 21 |
 | 05 Sorting of Arrays | [notes](chapter-05-sorting-of-arrays/notes.md) | [folder](chapter-05-sorting-of-arrays/practice-problems) | 2 |
 | 06 Functions | [notes](chapter-06-functions/notes.md) | [folder](chapter-06-functions/practice-problems) | 4 |
 
