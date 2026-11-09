@@ -31,7 +31,7 @@ int main(){
         }
     }
 
-    cout << "Union of  the two arrays are: ";
+    cout << "Union of the two arrays are: ";
     for(int i = 0; i < size; i++){
         cout << un[i] << " ";
     }

@@ -8,7 +8,7 @@ Since both input arrays are sorted, the resulting intersection array should also
 using namespace std;
 
 int main(){
-    int arr1[] = {1, 2, 3, 4, 5, 6, 7, 8};
+    int arr1[] = {1, 2, 2, 3, 4, 5, 6, 7, 8};
     int n = 8;
     int arr2[] = {2, 4, 6, 8};
     int m = 4;
