@@ -4,35 +4,19 @@
 using namespace std;
 
 int main(){
-    int n;
-    cout << "Enter the number of elements: ";
-    cin >> n;
-
-    int arr[n];
-    int size = sizeof(arr) / sizeof(arr[0]);
-
-    cout << "Enter the elements of the array in non-decreasing form: ";
-    for(int i = 0; i < size; i++){
-        cin >> arr[i];
-    }
-
-    cout << "Original array: ";
-    for(int i = 0; i < size; i++){
-        cout << arr[i] << " ";
-    }
-    cout << endl;
-
-    for(int i = 0; i < size; i++){
-        for(int j = 0; j< size; j++){
-            if(arr[j] == arr[j + 1]){
-                arr[j] = arr[j + 1];
-                arr[j + 1] = '_';
-            }
+    int arr[] = {1, 1, 2, 3, 3, 3, 4, 5, 5, 6, 6, 8};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    
+    int i = 0;
+    for(int j = 1; j < n; j++){
+        if(arr[j] != arr[i]){
+            arr[i + 1] = arr[j];
+            i++;
         }
     }
 
-    cout << "Modified array: ";
-    for(int i = 0; i < size; i++){
+    cout << " modified array: ";
+    for(int i = 0; i < n; i++){
         cout << arr[i] << " ";
     }
 
