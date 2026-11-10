@@ -1,3 +1,5 @@
+### Sorting of arrays
+
 By sort we mean to arrange the elements of array in specific order, either ascending, descending etc.
 
 For doing this we have certain algorithms that we can use to sort an array.
@@ -11,7 +13,7 @@ These algorithms are:
 
 The se are the main variants that we will be using the most although their are some more algorithms to sort an array but these are used widely.
 
-### Bubble sort:
+#### Bubble sort:
 
 In this sorting method take an example of a bucket with bubbles in it with our general observations we can say that the biggest bubble will come out of the bucket or will pop first in the bucket.
 
@@ -51,12 +53,20 @@ int main(){
     cout << endl;
 
     // Bubble sorting
+    int isSwap = 0;
     for(int i = 0; i < n - 1; i++){
         for(int j = 0; j < n - i - 1; j++){
             if(arr[j] > arr[j + 1]){
                 swap(arr[j], arr[j + 1]);
+                isSwap = 1;
             }
         }
+
+        if(isSwap == 0){
+            break;
+        }
+
+        cout << "run\n";
     }
 
     cout << "Sorted array: ";
@@ -68,7 +78,7 @@ int main(){
 }
 ```
 
-### Selection sort:
+#### Selection sort:
 
 Here in this sorting method we select each element one by one and then we compare it with the adjacent element.
 
@@ -127,4 +137,98 @@ int main(){
 }
 ```
 
-### Insertion Sort:
+#### Insertion Sort:
+
+### Searching of an element
+
+To search an element in an array what we basically do is we check the array throughout and if the target value matches with any of the element of the array we return the index of that element.
+
+Their are several ways to search for the element:
+
+1. Linear Search
+2. Binary Search
+
+#### Linear Search:
+
+In case of linear search we traverse the array elements one by one till the target value matches with any one of the array elements and then we return the index of that particular array element.
+
+Algorithm:
+
+1. Read the array and the target value.
+2. Start a loop for the array from index 0 to n - 1 (where n is the length of the array).
+3. Inside the loop check the condition if any array element matches with the target value.
+4. If matches, return the index. 
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[] = {1, 7, 4, 6, 23, 5, 6, 10, 44};
+    int size = sizeof(arr) / sizeof(arr[0]);
+
+    int n;
+    cout << "Enter the element to search: ";
+    cin >> n;
+
+    for(int i = 0; i < size; i++){
+        if(arr[i] == n){
+            cout << "Element " << n << " found at index: " << i;
+            break;
+        }
+    }
+    
+    return 0;
+}
+```
+
+#### Binary Search:
+
+In case of binary search we don’t check all the elements of the array as we did in the linear search.
+
+Here we find the middle index first and according to the middle index and the value at the middle index we proceed further as per the below written algoriithm
+
+Algorithm:
+
+1. Read the array, the length of the array & the target value.
+2. Initiate with three variables- start = 0, end = n - 1 & mid = (start + end) /  2.
+3. Check if the value at middle of the index matches with the target value.
+4. if not, then check whether the target value is bigger than or smaller than value at the middle index.
+5. If the value is bigger then start = mid + 1.
+6. If the value is smaller then high = mid - 1.
+7. Check the conditions and return the index of the element.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main(){
+    int arr[] = {1, 3, 5, 15, 23, 56, 72};
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    int key;
+    cout << "Enter the element to search: ";
+    cin >> key;
+
+    int low = 0;
+    int high = n - 1;
+
+    bool found = false;
+    while(low <= high){
+        int mid = (low + high) / 2;
+        if(arr[mid] == key){
+            cout << "Element found at: " << mid;
+            found = true;
+            break;
+        }else if(key > arr[mid]){
+            low = mid + 1;
+        }else{
+            high = mid - 1;
+        }
+    }
+    if(!found){
+        cout << "Element not found...";
+    }
+    return 0;
+}
+```
