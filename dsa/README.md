@@ -45,7 +45,8 @@ dsa/
 | 03 Conditional statements and Loops | [notes](chapter-03-conditionals-and-loops/notes.md) | [folder](chapter-03-conditionals-and-loops/practice-problems) | 50 |
 | 04 Arrays in CPP | [notes](chapter-04-arrays-in-cpp/notes.md) | [folder](chapter-04-arrays-in-cpp/practice-problems) | 24 |
 | 05 Sorting of Arrays | [notes](chapter-05-search-&-sort/notes.md) | [folder](chapter-05-search-&-sort/practice-problems) | 4 |
-| 06 Functions | [notes](chapter-06-functions/notes.md) | [folder](chapter-06-functions/practice-problems) | 6 |
+| 06 Functions | [notes](chapter-06-functions/notes.md) | [folder](chapter-06-functions/practice-problems) | 7 |
+| 07 Pointers | [notes](chapter-07-pointers/notes.md) | [folder](chapter-07-pointers/practice-problems) | NA |
 
 
 
