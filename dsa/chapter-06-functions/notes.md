@@ -46,3 +46,8 @@ int product(int n, int m){
 ### Calling of a function:
 
 Calling a function means to use the function inside the code as we used sum function in the above code example in the main function of our code.
+
+### Basic knowledge for functions:
+
+1. While running a code the code runs in a stack manner where the first element of the stack is main function inside which we call our function.
+2. If we are calling function A inside the function B the function a should be written before function B.
