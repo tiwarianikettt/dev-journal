@@ -47,6 +47,7 @@ dsa/
 | 05 Sorting of Arrays | [notes](chapter-05-search-&-sort/notes.md) | [folder](chapter-05-search-&-sort/practice-problems) | 4 |
 | 06 Functions | [notes](chapter-06-functions/notes.md) | [folder](chapter-06-functions/practice-problems) | 7 |
 | 07 Pointers | [notes](chapter-07-pointers/notes.md) | [folder](chapter-07-pointers/practice-problems) | NA |
+| 08 Bitmasking | [notes](chapter-08-bitmasking/notes.md) | [folder](chapter-08-bitmasking/practice-problems) | NA |
 
 
 
